@@ -49,23 +49,29 @@ nav {
     width: 25%;
 }
 
+nav h2 {
+    padding-left: 20px;
+}
+
 nav a {
     display: block;
-    height: 30px;
-    width: 150px;
-    margin: 20px auto;
-    padding-top: 0px;
+    height: 35px;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
 
-    background-color: #fff;
     list-style-type: none;
     text-decoration: none;
-    text-align: center;
+    text-decoration: none;
     font-size: large;
 
     border-radius: 3px;
 }
 
 nav a:hover {
+    background-color: #ddf;
     box-shadow: 1px 1px 3px 2px #bbf, -1px -1px 3px 2px #bbf;
 }
 
