@@ -1,21 +1,23 @@
 /*main CSS*/
 body {
-    display: grid;
-    grid-template-rows: 15% 80% 5%;
     margin: 0%;
     padding: 0%;
-    
+
     color: #111;
     background-color: #eeeeff ;
     font-family: "Space Grotesk", sans-serif;
     
 }
 
+.grid {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
 header {
     box-sizing: border-box;
     margin: 0%;
     width: 100%;
-    height: 100%;
 
     color: #fff;
     background-color: #37f;
@@ -43,10 +45,39 @@ article {
 
 }
 
+iframe {
+    width: 100%;
+    height: 433px ;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-color: #111;
+    border-width: 3px;
+    border-style: solid;
+}
+
+th, td {
+    width: 50%;
+    padding: 25px 5px;
+}
+
+th {
+    background-color: #bbf;
+}
+
+td {
+    padding-top: 5px;
+    background-color: #ddf;
+    vertical-align: top;
+}
+
+
 nav {
-    box-sizing: border-box;
     float: left;
     width: 25%;
+    margin-bottom: 50px;
+
 }
 
 nav h2 {
@@ -79,8 +110,7 @@ footer {
     box-sizing: border-box;
     padding-top: 20px;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
+    height: 72px;
 
 
 
