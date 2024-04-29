@@ -14,6 +14,29 @@ body {
     grid-template-rows: 10% 80% 10%;
 }
 
+.right {
+    margin-left: 50px;
+}
+
+#grid-soft-skills {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 33% 34% 33%;
+    text-align: center;
+}
+
+#grid-soft-skills img {
+    margin: auto;
+    margin-top: 30px;
+}
+
+#insti {
+    width: 402px;
+    height: 221px;
+}
+
+
+
 header {
     box-sizing: border-box;
     margin: 0%;
